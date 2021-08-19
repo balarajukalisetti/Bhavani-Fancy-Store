@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bhavani Fancy Store</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+	<link rel="stylesheet" href="bfs.css" >
+
+</head>
+<body class="i_body">
+
+<header>
+	
+	<div class="header " >
+		<img class="mySlides " src="header_bimg/h1.jpg" >
+		<img class="mySlides " src="header_bimg/h3.jpg" >
+		<img class="mySlides " src="header_bimg/h6.jpg" >
+		<img class="mySlides " src="header_bimg/h5.jpg" >
+		<img class="mySlides " src="header_bimg/h2.jpg" >
+		<img class="mySlides " src="header_bimg/h4.jpg" >
+		
+		<div class="top-left">Bhavani</div>
+		<div class="top-down">Fancy Store</div>
+		<div class="phrase">"Enhance Your Beauty.."</div>
+		<div class="happy">
+			
+			HAPPY<br> DUSSEHRA
+			
+		</div>
+		
+	
+	</header>
+	
+	<nav>
+		
+		<ul>
+			<li><a class="a active" href="index.html">Home</a></li>
+			<li><a class="a" href="products.html">Products</a></li>
+			<li><a class="a" href="about.html">About</a></li>
+			<li><a class="a" href="contact.html">Contact</a></li>
+		</ul>
+		  
+	</nav>
+	</center>
+	
+<div circle>
+	<center>
+	<div class="disc" > Avail Discount upto 20% More on Dussehra Sales
+		<br>Only Few Items are displayed here
+	</div></center>
+	<!----<img class="circle_1 circle5" src="header_img/h27.jpg">
+	<img class="circle_1 circle8" src="header_img/h27.jpg">
+	<img class="circle_1 circle6" src="header_img/h27.jpg">
+	<img class="circle_1 circle7" src="header_img/h27.jpg"> ---->
+	<center>
+	<a href="jewels.html" ><img class="cm circle" src="jewl_img/necklace/j8.jpg"></a>
+	<a href="toys.html"><img class="cm circle" src="header_img/h11.jpg"></a>
+	<a href="sarees.html"> <img class="cm circle" src="sarees_img/d44.jpg"></a>
+	<a href="dress.html"> <img class="cm circle" src="dress_img/lehangas/leh3a.jpg"></a>
+	<!---- <img class="circle circle3" src="header_img/h16.jpg"> ------> 
+	<div class="disc" > Click On Your Choice 
+	</div>
+</center>
+</div>
+
+
+</body>
+<script>
+var myIndex = 0;
+carousel();
+var j=0;
+function carousel() {
+  var i;
+  
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+
+	x[i].style.display = "none";
+  }
+  
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";
+  
+  setTimeout(carousel, 5500);
+
+}
+</script>
+
+
+</html>

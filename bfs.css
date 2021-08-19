@@ -1,0 +1,567 @@
+body
+{
+    margin:0%;
+}
+.mySlides{
+  width:100%;
+}
+
+.top-left {
+    position: absolute;
+    top: 15%;
+    left: 17.2%;
+    color:rgb(248, 242, 242);
+    font: italic small-caps bold 300% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+  .top-down
+  {
+      position: absolute;
+      top: 22.3%;
+      left: 42%;
+      font-size:150%;
+      color:rgb(246, 246, 248);
+      font: italic small-caps bold 160% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+  .disc{
+    margin:1%;
+    font-size: 110%;
+    color:rgb(21, 88, 4);
+  }
+  .happy{
+    width:1%;
+    position: absolute;
+    top:1%;
+  color:rgb(251, 252, 250);
+  font: italic small-caps bold 120% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-image: url("header_bimg/111.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding:0% 0% 0% 13%;
+}
+
+  .phrase {
+    position: absolute;
+    top: 25%;
+    left: 0.5%;
+    font-size: 90%;
+    color:rgb(255, 255, 255);
+    font-family:monospace;
+  }
+  ul {
+    width:100%;
+  
+    padding:0%;
+    margin:0% 0% 0% 0%;
+    background-color:rgba(0, 0, 0, 0.4);
+  }
+  li {
+    
+    display:inline-block;
+    
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+    .a{
+      margin:0%;
+      padding:0%;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 9px 16px;
+      text-decoration: none;
+      font-size: 100%;
+      
+      width:80%;
+      font-family:"Comic Sans MS", cursive, sans-serif;
+      
+    }
+
+  .circle1{
+      border-radius: 20%;
+      width:45%;
+      
+      margin: 4% 7% 0% 2%;
+      }
+    .circle2{
+      border-radius: 20%;
+      width:42%;
+      
+      position: absolute;
+      margin:10% 0% 0% 0%;
+    }
+    .circle3{
+        border-radius: 50%;
+        width:32%;
+      
+        position: relative;
+        
+    }
+    
+    .circle4{
+      border-radius: 50%;
+    width:42%;
+    position: relative;
+    margin:0% 5% 0% 2%;
+  }
+  .circle5{
+    border-radius: 50%;
+  width:40%;
+
+  position: relative;
+  
+}
+.circle6{
+  border-radius: 50%;
+width:20%;
+position: relative;
+
+}
+.circle7{
+  border-radius: 50%;
+width:44%;
+position:relative;
+
+}
+.circle8{
+  border-radius: 50%;
+width:25%;
+position:relative;
+
+}
+
+
+.circle_1{
+  box-shadow: 0px 0px 9px 4px rgb(0, 0, 0, 0.5);
+} 
+.cm{
+  display: inline-block;
+  margin:3%;
+  width:40%;
+  box-shadow: 0px 0px 9px 4px rgb(0, 0, 0, 0.5);
+  
+}
+
+.active{
+  background-color: black;
+}
+.bb{
+  margin:0%;
+  background-color: blue;
+}
+
+
+.s_body{
+  background-image: url("header_img/h217.jpg");
+}
+.dress_body{
+  background-color: #06686b;
+}
+.t_body{
+  background-image: url("header_img/h218.jpg");
+}
+.j_body{
+  background-image: url("header_img/black.jpg");
+  
+}
+.m{
+  width:80%;
+  display:block;
+  margin:0% 0% 5% 0%;
+  padding:0% 2% 0% 2%;
+  box-shadow: 0px 0px 9px 4px rgb(0, 0, 0,0.7);
+}
+.m1{
+width:80%;
+display:block;
+margin:0% 0% 5% 0%;
+padding:0% 2% 0% 2%;
+box-shadow: 0px 0px 9px 4px rgb(0, 0, 0,0.7);
+}
+
+.j{
+  width:35%;
+  padding:2% 0% 2% 0%;  
+  margin: 2% 0% 2% 9.5%;
+  box-shadow: 0px 0px 9px 3px rgb(0, 0, 0);
+}
+
+
+.about_img{
+  width:100%;
+  margin:7% 0% 0% 0%;
+  width:97%;
+}
+.a_body{
+  
+  background-color:rgb(235, 213, 143); 
+  width:100%;
+  
+}
+.c_body{
+  
+  background-color:rgb(235, 213, 143); 
+  width:100;
+  
+  
+}
+.a_1,.a_11{
+  margin:1%;
+  font-size: 100%;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+}
+.h1_about{
+    font-size: 195%;
+    margin:0%;
+}
+.h3_about{
+  margin:14% 0% 4% 0%;
+}
+.h1_contact{
+  margin:10% 0% 0% 0%;
+}
+
+.a_contact{
+  margin:7% 0% 0% 4%;
+  font-size: 100%;;
+}
+.i_body{
+  background-color:rgba(253, 253, 253, 0.856);
+  width:100%;
+  height: 100%;
+  
+}
+ul.breadcrumb {
+  padding: 10px 4px;
+  list-style: none;
+  background-color: rgb(216, 226, 214);
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  content: ">\00a0";
+}
+ul.breadcrumb li a {
+  color: #a56007;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #f7e5e5;
+  text-decoration: underline;
+}
+.jp{
+  margin:0% 3% 3% 3%;
+  width:32%;
+  display: inline-block;
+}
+.jps1{
+  margin:3% 0% 3% 0%;
+  width:75%;
+}
+.jps2{
+  margin:0% 0% 3% 0%;
+  width:75%;
+}
+.ch{
+  margin: 0% 0% 3% 0%;
+  width:80%;
+}
+.p{
+  margin:0% 3% 3% 3%;
+  width:36%;
+  display: inline-block;
+}
+.sp{
+  display: inline-block;
+  margin:4% 2% 1% 2%;
+  width:40%;
+}
+.j{
+  margin:1% 1% 1% 1%;
+  width:46%;
+}
+.jewel{
+  color:#f7e5e5;
+  font-size: 140%;
+  margin:0% 0% 2% 0%;
+}
+h1{
+  margin:0% 0% 1% 0%;
+font-size: 180%;
+text-align: center;
+}.h2{
+  color:#f7e5e5;
+  font-size: 170%;
+  margin:2% 0% 0% 0%;
+}
+@media screen and (min-width: 768px)
+{
+  .top-left {
+    
+    margin:24% 0% 0% 15%;
+    color:rgb(255, 251, 253);
+    font: italic small-caps bold 450% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+  .top-down
+  {
+      margin:28% 0% 0% 0%;
+      color:rgb(251, 252, 250);
+      font: italic small-caps bold 340% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.h1_about{
+  font-size: 300%;
+ margin:0%;
+}
+.a_11{
+  
+  font-size: 125%;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+}
+.h3_about{
+  margin:4% 0% 3% 0%;
+  font-size: 200%;
+}
+.h2_about{
+  font-size:200% ;
+}
+.h1_contact{
+  margin:0% 0% 0% 0%;
+  font-size: 320%;
+}
+.a_contact{
+  margin:4% 0% 0% 4%;
+  font-size: 160%;
+}
+
+.p{
+  margin:0% 0% 0% 0%;
+  width:16%;
+}
+
+.sp{
+  display: inline-block;
+  margin:1% 2% 4% 2%;
+  width:16%;
+}
+
+.jp{
+  margin:1% 3% 4% 0%;
+  width:12%;
+}
+.jps1{
+  margin:1% 5% 0% 5%;
+  width:25%;
+display: inline-block;
+}
+.jps2{
+  margin:1% 5% 0% 0%;
+  width:40%;
+display: inline-block;
+}
+
+.j{
+  margin:2% 2% 3% 2.5%;
+  width:15%;
+}
+.phrase {
+  position: absolute;
+  top: 75%;
+  left: 9%;
+  font-size: 200%;
+  color:rgb(255, 255, 255);
+  font-family:monospace;
+}
+.pp{
+  margin:0% 3% 3% 3%;
+  width:38%;
+  display: inline-block;
+}
+.ch{
+  margin: 1% 0% 1% 0%;
+  width:50%;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: rgb(216, 226, 214);
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  content: ">\00a0";
+}
+ul.breadcrumb li a {
+  color: #a56007;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #f7e5e5;
+  text-decoration: underline;
+}
+.happy{
+  width:2%;
+  position: absolute;
+  margin:1% 0% 0% 0%;
+  top:0%;
+  color:rgb(252, 249, 249);
+  font: italic small-caps bold 300% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-image: url("header_bimg/111.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding:0% 0% 0% 11%;
+  
+
+}
+.disc{
+  margin:1%;
+  font-size: 230%;
+  color:rgb(21, 88, 4);
+}
+.cm{
+  display: inline-block;
+  margin:1%;
+  width:22%;
+  box-shadow: 0px 0px 9px 4px rgb(0, 0, 0, 0.5);
+  
+}
+.cm:hover{
+  opacity: 0.5;
+  
+}
+.jp:hover{
+  opacity: 0.5;
+}
+.jps2:hover{
+  opacity: 0.5;
+}
+.jps1:hover{
+  opacity: 0.5;
+}
+.pp:hover{
+  opacity: 0.5;
+}
+.sp:hover{
+  opacity: 0.5;
+}
+.jewel{
+  color:#f7e5e5;
+  font-size: 250%;
+  margin:0% 0% 2% 0%;
+}
+h1{
+  margin:0% 0% 1% 0%;
+font-size: 400%;
+text-align: center;
+}
+}
+@media screen and (min-width: 1080px){
+  .top-left {
+    
+    margin:16% 0% 0% 8%;
+    color:rgb(255, 251, 253);
+    font: italic small-caps bold 750% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+  .top-down
+  {
+      margin:22% 0% 0% 0%;
+      color:rgb(251, 252, 250);
+      font: italic small-caps bold 430% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.mySlides{
+  height: 585px;
+}
+.p{
+  margin:1% 2% 0% 2%;
+}
+.phrase {
+  position: absolute;
+  top:78%;
+  left: 13%;
+  font-size: 230%;
+  color:rgb(252, 248, 251);
+  font-family:monospace;
+}
+.happy{
+  width:2%;
+  position: absolute;
+  margin:1% 0% 0% 0%;
+  top:0%;
+  color:rgb(252, 249, 249);
+  font: italic small-caps bold 450% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-image: url("header_bimg/111.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding:0% 0% 0% 11%;
+  
+
+}
+
+.pp{
+  margin:0% 6% 3% 6%;
+  width:25%;
+  display: inline-block;
+}
+.ch{
+  margin: 1% 0% 1% 0%;
+  width:50%;
+}
+h1{
+  margin:0% 0% 1% 0%;
+font-size: 400%;
+text-align: center;
+}
+
+.disc{
+  margin:1%;
+  font-size: 250%;
+  color:rgb(21, 88, 4);
+}
+
+.cm:hover{
+  opacity: 0.5;
+  
+}
+.jp:hover{
+  opacity: 0.5;
+}
+.jps2:hover{
+  opacity: 0.5;
+}
+.jps1:hover{
+  opacity: 0.5;
+}
+.pp:hover{
+  opacity: 0.5;
+}
+.sp:hover{
+  opacity: 0.5;
+}
+.dd:hover{
+  opacity: 0.5;
+  
+}
+.jewel{
+  color:#f7e5e5;
+  font-size: 350%;
+  margin:0% 0% 2% 0%;
+}
+.h2{
+  color:#f7e5e5;
+  font-size: 260%;
+  margin:1% 0% 0% 0%;
+  
+}
+}
